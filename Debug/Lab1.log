@@ -1,0 +1,20 @@
+﻿  Clients_Map.cpp
+  Master_Map.cpp
+D:\clone\Lab1\Lab1\Master_Map.cpp(22,4): warning C4477: "sprintf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "2" имеет тип "int"
+D:\clone\Lab1\Lab1\Master_Map.cpp(22,4): warning C4477: "sprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "3" имеет тип "const _Elem *"
+          with
+          [
+              _Elem=char
+          ]
+  Materials_Map.cpp
+D:\clone\Lab1\Lab1\Materials_Map.cpp(29,19): warning C4474: "sprintf" : для строки формата передано слишком много аргументов
+D:\clone\Lab1\Lab1\Materials_Map.cpp(29,19): message : заполнители и их параметры ожидают переменное число аргументов в количестве 3, но было предоставлено 4
+  Service_Map.cpp
+  Specialization_Map.cpp
+  Staff_Map.cpp
+D:\clone\Lab1\Lab1\Staff_Map.cpp(30,16): warning C4477: "sprintf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "7" имеет тип "int"
+  Staff_Transfer_Map.cpp
+  Создание кода...
+Storage.obj : error LNK2019: ссылка на неразрешенный внешний символ "private: __thiscall Storage::Storage(void)" (??0Storage@@AAE@XZ) в функции "public: static class Storage * __cdecl Storage::getInstance(void)" (?getInstance@Storage@@SAPAV1@XZ).
+Storage.obj : error LNK2001: неразрешенный внешний символ "private: static class Storage * Storage::storage" (?storage@Storage@@0PAV1@A).
+D:\clone\Lab1\Debug\Lab1.exe : fatal error LNK1120: неразрешенных внешних элементов: 2
